@@ -1,3 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Kumbh Sans', sans-serif;
+}
+main{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background-image: url(./images/bg-pattern-card.svg);
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 25vh;
+    width: 370px;
+}
 body{
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: right 53vw top -500px, left 50vw top 60vh;
+    background-repeat: no-repeat, no-repeat;
     background-color: hsl(185, 75%, 39%);
+}
+img{
+    margin-top: 27%;
+    border-radius: 50%;
+    width: 100px;
+    border: solid 5px white;
+    padding: 0;
+}
+.attribution{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+}
+.stats{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 5vh;
+    padding: 1.5em 0 1em 0;
+    border-top: solid 1px hsl(0, 0%, 59%);
+}
+
+.identity{
+    font-size: 18px;
+    margin-top: 3.5vh;
+    font-weight: 700;
+}
+h3::first-line{
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+h3{
+    font-size:12px;
+    line-height: 1.7em;
+}
+.age,.city,h3{
+    color:hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+.city{
+    margin-top: 2vh;
+    font-size: 14px;
+}
+.age{
+    margin-left: 0.4em;
 }
